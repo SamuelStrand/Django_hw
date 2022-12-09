@@ -4,4 +4,7 @@ from django_app import views
 
 urlpatterns = [
     path('', views.home, name=''),
+    path('home/', views.home, name=''),
+    path('posts/', views.posts, name=''),
+
 ]

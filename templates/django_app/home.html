@@ -1,8 +1,36 @@
 {% extends "components/base.html" %}
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
+{% block main %}
+<div style="margin: 50px 700px 100px 700px">
+<div class="col">
+          <div class="card shadow-sm">
+            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+
+            <div class="card-body">
+              <p class="card-text">Карточка какого-то обхекта</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+</div>
+
+<div class="">
+    <p>List</p>
+    <ol type="I">
+      <li>Element1</li>
+      <li>Element2</li>
+      <li>Element3</li>
+      <li>Element4</li>
+      <li>Element5</li>
+      <li>Element6</li>
+      <li>Element7</li>
+    </ol>
+</div>
+
+{% endblock main %}
